@@ -4,33 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Roda</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .wheel {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            border: 5px solid black;
-            border-radius: 50%;
-            background-color: #e6e6e6;
-        }
-        .radius {
-            position: absolute;
-            width: 2px;
-            background-color: black;
-            height: 140px; /* Panjang jari-jari */
-            top: 50%; /* Posisi di tengah vertikal */
-            left: 50%; /* Posisi di tengah horizontal */
-            transform-origin: top center; /* Rotasi dari titik atas */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wheel" id="wheel">
